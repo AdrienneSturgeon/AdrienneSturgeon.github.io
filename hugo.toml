@@ -1,6 +1,6 @@
 baseurl = "https://AdrienneSturgeon.github.io/"
 DefaultContentLanguage = "en"
-title = "Beautiful Hugo"
+title = "Adrienne Sturgeon"
 # Using theme as git submodule
 theme = "beautifulhugo"
 # Or when using theme as hugo module
