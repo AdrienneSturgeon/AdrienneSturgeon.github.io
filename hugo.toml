@@ -99,24 +99,24 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     identifier = "samples"
-    name = "Samples"
+    name = "Projects"
     weight = 2
 
 [[menu.main]]
     parent = "samples"
-    name = "Big Image Sample"
+    name = "Event Track App"
     url = "post/2017-03-07-bigimg-sample"
     weight = 1
 
 [[menu.main]]
     parent = "samples"
-    name = "Math Sample"
+    name = "Salvadore Dash App"
     url = "post/2017-03-05-math-sample"
     weight = 2
 
 [[menu.main]]
     parent = "samples"
-    name = "Code Sample"
+    name = "Travlr Full Stack App"
     url = "post/2016-03-08-code-sample"
     weight = 3
 

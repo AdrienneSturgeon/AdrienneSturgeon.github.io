@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Code on Beautiful Hugo</title>
+    <title>Code on Adrienne Sturgeon</title>
     <link>https://AdrienneSturgeon.github.io/tags/code/</link>
-    <description>Recent content in Code on Beautiful Hugo</description>
+    <description>Recent content in Code on Adrienne Sturgeon</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>youremail@domain.com (Some Person)</managingEditor>
@@ -11,7 +11,7 @@
     <lastBuildDate>Tue, 08 Mar 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://AdrienneSturgeon.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Code Sample</title>
+      <title>Travlr Full Stack App</title>
       <link>https://AdrienneSturgeon.github.io/post/2016-03-08-code-sample/</link>
       <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
       <guid>https://AdrienneSturgeon.github.io/post/2016-03-08-code-sample/</guid>
