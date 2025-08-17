@@ -1,6 +1,6 @@
 ---
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Professional Self Assessment
+subtitle: Completed for Project Two of CS-499
 comments: false
 ---
 
