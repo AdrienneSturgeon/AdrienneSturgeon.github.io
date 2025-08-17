@@ -1,6 +1,6 @@
 ---
-title: Code Sample
-subtitle: Using Hugo or Pygments
+title: Travlr Full Stack App
+subtitle: Using MEAN Stack
 date: 2016-03-08
 tags: ["example", "code"]
 ---

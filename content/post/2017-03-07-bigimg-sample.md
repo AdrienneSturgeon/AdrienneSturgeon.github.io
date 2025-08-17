@@ -1,5 +1,5 @@
 ---
-title: Big Image Sample
+title: Event Track App
 subtitle: Using Multiple Images
 date: 2017-03-07
 tags: ["example", "bigimg"]

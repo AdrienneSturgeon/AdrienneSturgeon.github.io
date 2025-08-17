@@ -1,5 +1,5 @@
 ---
-title: Math Sample
+title: Salvadore Dash App
 subtitle: Using KaTeX
 date: 2017-03-05
 tags: ["example", "math"]
