@@ -8,14 +8,14 @@
     <language>en</language>
     <managingEditor>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</managingEditor>
     <webMaster>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</webMaster>
-    <lastBuildDate>Sun, 05 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://AdrienneSturgeon.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Salvadore Dash App</title>
       <link>https://AdrienneSturgeon.github.io/post/2017-03-05-math-sample/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
       <guid>https://AdrienneSturgeon.github.io/post/2017-03-05-math-sample/</guid>
-      <description>&lt;p&gt;KaTeX can be used to generate complex math formulas server-side.&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;Additional details can be found on &lt;a href=&#34;https://github.com/KaTeX/KaTeX&#34;&gt;GitHub&lt;/a&gt; or on the &lt;a href=&#34;https://katex.org/&#34;&gt;project homepage&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I have provided a link to download the Salvadore Dash App Original and Improved Versions Here:&#xA;&lt;a href=&#34;https://snhu-my.sharepoint.com/:f:/r/personal/adrienne_sturgeon_snhu_edu/Documents/CS-499/Artifacts/Artifact%20Two?csf=1&amp;amp;web=1&amp;amp;e=TfYzaV&#34;&gt;Salvadore Dash App&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Artifact Two Narrative&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Briefly describe the artifact. What is it? When was it created?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The artifact is a Jupyter Notebook project titled&#xA;ProjectTwoDashboard.ipynb, created to support an interactive dashboard&#xA;for visualizing animal shelter data in my CS-340 course. It was built&#xA;using Python, Dash, and MongoDB and first developed during Module One of&#xA;the course. The dashboard allows users to view and filter dog profiles&#xA;by breed, rescue suitability, and location. It integrates components&#xA;like charts, a dynamic data table, and a geolocation map for individual&#xA;animal entries.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

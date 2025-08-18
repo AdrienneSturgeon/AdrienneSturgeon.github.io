@@ -1,7 +1,7 @@
 ---
 title: Salvadore Dash App
 subtitle: Using Jupyter Notebook
-date: 2035-08-05
+date: 2025-08-05
 tags: ["example", "math"]
 bigimg: [{src: "/img/triangle.jpg", desc: "Triangle"}, {src: "/img/sphere.jpg", desc: "Sphere"}, {src: "/img/hexagon.jpg", desc: "Hexagon"}]
 ---
