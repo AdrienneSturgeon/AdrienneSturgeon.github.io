@@ -8,14 +8,14 @@
     <language>en</language>
     <managingEditor>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</managingEditor>
     <webMaster>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</webMaster>
-    <lastBuildDate>Tue, 08 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://AdrienneSturgeon.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Travlr Full Stack App</title>
       <link>https://AdrienneSturgeon.github.io/post/2016-03-08-code-sample/</link>
-      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
       <guid>https://AdrienneSturgeon.github.io/post/2016-03-08-code-sample/</guid>
-      <description>&lt;p&gt;The following are two code samples using syntax highlighting.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I have provided a link to download the Event Track App Original and Improved Versions Here:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Artifact Three Narrative&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Artifact Overview&lt;/strong&gt;&lt;br&gt;&#xA;This artifact is a web authentication system that uses Angular for the&#xA;frontend and Express.js for the backend. It supports secure logins by&#xA;storing JSON Web Tokens (JWT) in cookies, allowing authenticated access&#xA;without revealing sensitive credentials. The system started with a focus&#xA;on creating smooth and secure login experiences. Through successive&#xA;improvements, it became more efficient in managing token timing, error&#xA;reporting, and frontend-backend interactions. I was also able to&#xA;successfully implement an authorization strategy in addition to the&#xA;existing authentication system.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

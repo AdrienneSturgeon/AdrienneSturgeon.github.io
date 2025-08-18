@@ -1,7 +1,7 @@
 ---
 title: Event Track App
 subtitle: Using Multiple Images
-date: 2017-03-07
+date: 2025-07-25
 tags: ["example", "bigimg"]
 bigimg: [{src: "/img/triangle.jpg", desc: "Triangle"}, {src: "/img/sphere.jpg", desc: "Sphere"}, {src: "/img/hexagon.jpg", desc: "Hexagon"}]
 ---

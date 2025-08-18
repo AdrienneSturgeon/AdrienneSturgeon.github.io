@@ -8,34 +8,27 @@
     <language>en</language>
     <managingEditor>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</managingEditor>
     <webMaster>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</webMaster>
-    <lastBuildDate>Tue, 07 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://AdrienneSturgeon.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bigimg</title>
-      <link>https://AdrienneSturgeon.github.io/tags/bigimg/</link>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
-      <guid>https://AdrienneSturgeon.github.io/tags/bigimg/</guid>
+      <title>Code</title>
+      <link>https://AdrienneSturgeon.github.io/tags/code/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
+      <guid>https://AdrienneSturgeon.github.io/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Example</title>
       <link>https://AdrienneSturgeon.github.io/tags/example/</link>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
       <guid>https://AdrienneSturgeon.github.io/tags/example/</guid>
       <description></description>
     </item>
     <item>
-      <title>Math</title>
-      <link>https://AdrienneSturgeon.github.io/tags/math/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
-      <guid>https://AdrienneSturgeon.github.io/tags/math/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Code</title>
-      <link>https://AdrienneSturgeon.github.io/tags/code/</link>
-      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
-      <guid>https://AdrienneSturgeon.github.io/tags/code/</guid>
+      <title>Bigimg</title>
+      <link>https://AdrienneSturgeon.github.io/tags/bigimg/</link>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
+      <guid>https://AdrienneSturgeon.github.io/tags/bigimg/</guid>
       <description></description>
     </item>
   </channel>

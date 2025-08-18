@@ -8,12 +8,12 @@
     <language>en</language>
     <managingEditor>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</managingEditor>
     <webMaster>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</webMaster>
-    <lastBuildDate>Tue, 07 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://AdrienneSturgeon.github.io/tags/bigimg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Event Track App</title>
       <link>https://AdrienneSturgeon.github.io/post/2017-03-07-bigimg-sample/</link>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
       <guid>https://AdrienneSturgeon.github.io/post/2017-03-07-bigimg-sample/</guid>
       <description>&lt;p&gt;I have provided a link to download the Event Track App Original and Improved Versions Here:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Event Track App: Artifact Enhancement Narrative&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What is the artifact? When was it created?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Event Track App is a mobile Android application originally built as&#xA;part of my software development coursework in CS-360. It is designed to&#xA;help users log, view, and receive notifications about scheduled events.&#xA;The app was created in early Februrary 2025 and refined throughout this&#xA;month as part of a comprehensive enhancement process. It consists of&#xA;multiple interconnected classes (MainActivity, EventDisplayActivity,&#xA;RegisterActivity, SMSNotificationsActivity, and DatabaseHelper)&#xA;supporting user authentication, event CRUD operations, and notification&#xA;workflows.&lt;/p&gt;</description>
     </item>
