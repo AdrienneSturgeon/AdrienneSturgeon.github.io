@@ -33,7 +33,7 @@ maintainability. For example, in my Android app, I externalized
 hardcoded UI strings to improve localization and readability:
 
 ```javascript
-/ Original hardcoded string
+// Original hardcoded string
 Toast.makeText(this, "Login successful", Toast.LENGTH_SHORT).show();
 
 // Enhanced version using XML localization
