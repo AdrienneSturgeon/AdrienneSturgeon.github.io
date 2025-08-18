@@ -1,2 +1,3 @@
-## Front Page Content
-`beautifulhugo` supports content on your front page. Edit `/content/_index.md` to change what appears here. Delete `/content/_index.md` if you don't want any content here.
+## 👋 Welcome!
+
+Hi, I'm Adrienne Sturgeon — a methodical and security-focused software developer with a passion for building scalable, user-centered applications. I specialize in full-stack development, cloud-native workflows, and defensive design. This portfolio showcases my journey through the Computer Science program at SNHU, highlighting projects that reflect my growth in software engineering, data structures, and database design. Whether I'm troubleshooting legacy code, integrating Firebase notifications, or refining authentication systems, I bring a thoughtful, resilient approach to solving real-world problems. Thanks for visiting!
