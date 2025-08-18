@@ -1,6 +1,6 @@
 ---
 title: Event Track App
-subtitle: Using Multiple Images
+subtitle: Using Android Studio
 date: 2025-07-25
 tags: ["example", "bigimg"]
 bigimg: [{src: "/img/triangle.jpg", desc: "Triangle"}, {src: "/img/sphere.jpg", desc: "Sphere"}, {src: "/img/hexagon.jpg", desc: "Hexagon"}]
