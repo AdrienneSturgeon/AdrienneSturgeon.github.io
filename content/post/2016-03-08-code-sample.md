@@ -3,6 +3,7 @@ title: Travlr Full Stack App
 subtitle: Using MEAN Stack
 date: 2016-03-08
 tags: ["example", "code"]
+bigimg: [{src: "/img/triangle.jpg", desc: "Triangle"}, {src: "/img/sphere.jpg", desc: "Sphere"}, {src: "/img/hexagon.jpg", desc: "Hexagon"}]
 ---
 
 The following are two code samples using syntax highlighting.

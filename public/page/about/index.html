@@ -63,9 +63,9 @@
     "name" : "Adrienne Sturgeon"
   },
   "headline": "Professional Self Assessment",
-  "description" : "My name is Inigo Montoya. I have the following qualities:\nI rock a great mustache I\u0026rsquo;m extremely loyal to my family What else do you need?\nmy history To be honest, I\u0026rsquo;m having some trouble remembering right now, so why don\u0026rsquo;t you just watch my movie and it will answer all your questions.\n",
+  "description" : "Professional Self-Assessment\nAdrienne Sturgeon – CS-499 Capstone Portfolio\nAs I complete the Computer Science program and present this ePortfolio, I reflect on a journey marked by growth, resilience, and a deepening commitment to secure, scalable, and user-centered software development. This portfolio represents not only my technical capabilities but also my ability to communicate, collaborate, and solve complex problems across diverse computing environments. Through coursework, project enhancements, and reflective practice, I’ve developed a strong foundation in full-stack development, cloud-native workflows, and defensive design which are skills that position me to contribute meaningfully to the software industry.\n",
   "inLanguage" : "en",
-  "wordCount":  53 ,
+  "wordCount":  684 ,
   "datePublished" : "0001-01-01T00:00:00\u002b00:00",
   "dateModified" : "0001-01-01T00:00:00\u002b00:00",
   "image" : "https:\/\/AdrienneSturgeon.github.io\/img\/avatar-icon.png",
@@ -273,14 +273,127 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>My name is Inigo Montoya. I have the following qualities:</p>
+        <p><strong>Professional Self-Assessment</strong></p>
+<p><strong>Adrienne Sturgeon – CS-499 Capstone Portfolio</strong></p>
+<p>As I complete the Computer Science program and present this ePortfolio,
+I reflect on a journey marked by growth, resilience, and a deepening
+commitment to secure, scalable, and user-centered software development.
+This portfolio represents not only my technical capabilities but also my
+ability to communicate, collaborate, and solve complex problems across
+diverse computing environments. Through coursework, project
+enhancements, and reflective practice, I’ve developed a strong
+foundation in full-stack development, cloud-native workflows, and
+defensive design which are skills that position me to contribute
+meaningfully to the software industry.</p>
+<p><strong>Collaboration and Communication</strong></p>
+<p>Throughout the program, I’ve engaged in collaborative environments that
+mirror real-world development teams. Whether through peer code reviews,
+group assignments, or stakeholder-focused documentation, I’ve learned to
+adapt my communication style to technical and nontechnical audiences. My
+code review video was designed to walk peers and managers through
+enhancement plans using clear, contextual explanations.</p>
+<p>I also practiced in-code commenting and modular design to support future
+maintainability. For example, in my Android app, I externalized
+hardcoded UI strings to improve localization and readability:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">/ Original hardcoded string</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Toast</span>.<span style="color:#a6e22e">makeText</span>(<span style="color:#66d9ef">this</span>, <span style="color:#e6db74">&#34;Login successful&#34;</span>, <span style="color:#a6e22e">Toast</span>.<span style="color:#a6e22e">LENGTH_SHORT</span>).<span style="color:#a6e22e">show</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Enhanced version using XML localization
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">Toast</span>.<span style="color:#a6e22e">makeText</span>(<span style="color:#66d9ef">this</span>, <span style="color:#a6e22e">getString</span>(<span style="color:#a6e22e">R</span>.<span style="color:#a6e22e">string</span>.<span style="color:#a6e22e">login_success</span>), <span style="color:#a6e22e">Toast</span>.<span style="color:#a6e22e">LENGTH_SHORT</span>).<span style="color:#a6e22e">show</span>();
+</span></span></code></pre></div><p>This change supports internationalization and aligns with Android best
+practices, making the code more adaptable for diverse audiences.</p>
+<p><strong>Algorithmic Thinking and Design Trade-offs</strong></p>
+<p>In my second artifact, a data dashboard built with Python, Dash, and
+MongoDB, I applied algorithmic principles to abstract and optimize
+filtering logic. I replaced repetitive query code with a centralized
+helper function:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_filtered_query</span>(filter_type):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;$and&#34;</span>: [
+</span></span><span style="display:flex;"><span>            {<span style="color:#e6db74">&#34;$or&#34;</span>: [{<span style="color:#e6db74">&#39;breed&#39;</span>: {<span style="color:#e6db74">&#34;$regex&#34;</span>: breed}} <span style="color:#66d9ef">for</span> breed <span style="color:#f92672">in</span> breed_map[filter_type]]},
+</span></span><span style="display:flex;"><span>            {<span style="color:#e6db74">&#39;sex_upon_outcome&#39;</span>: sex_map[filter_type]},
+</span></span><span style="display:flex;"><span>            {
+</span></span><span style="display:flex;"><span>                age_field: {
+</span></span><span style="display:flex;"><span>                    <span style="color:#e6db74">&#34;$gt&#34;</span>: age_ranges[filter_type][<span style="color:#ae81ff">0</span>],
+</span></span><span style="display:flex;"><span>                    <span style="color:#e6db74">&#34;$lt&#34;</span>: age_ranges[filter_type][<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        ]
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>This abstraction reduced redundancy, improved scalability, and made the code
+easier to maintain. I also corrected variable naming inconsistencies
+(e.g., age_upon-outcome_in_weeks → age_upon_outcome_in_weeks) to
+prevent silent query failures which is an important lesson in data
+integrity and debugging.</p>
+<p><strong>Innovative Techniques and Industry Value</strong></p>
+<p>My enhancements reflect a commitment to using well-founded and
+innovative techniques to deliver value. In the Event Track App, I
+implemented asynchronous processing to avoid ANR errors:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Thread</span>(() <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isValid</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">databaseHelper</span>.<span style="color:#a6e22e">checkUser</span>(<span style="color:#a6e22e">username</span>, <span style="color:#a6e22e">password</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">runOnUiThread</span>(() <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// UI updates safely executed
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    });
+</span></span><span style="display:flex;"><span>}).<span style="color:#a6e22e">start</span>();
+</span></span></code></pre></div><p>I also integrated Firebase Cloud Messaging (FCM) for scalable push
+notifications:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">createNotificationChannel</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">Build</span>.<span style="color:#a6e22e">VERSION</span>.<span style="color:#a6e22e">SDK_INT</span> <span style="color:#f92672">&gt;=</span> <span style="color:#a6e22e">Build</span>.<span style="color:#a6e22e">VERSION_CODES</span>.<span style="color:#a6e22e">O</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">NotificationChannel</span> <span style="color:#a6e22e">channel</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">NotificationChannel</span>(
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;event_notifications&#34;</span>, <span style="color:#e6db74">&#34;Event Alerts&#34;</span>, <span style="color:#a6e22e">NotificationManager</span>.<span style="color:#a6e22e">IMPORTANCE_HIGH</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">channel</span>.<span style="color:#a6e22e">setDescription</span>(<span style="color:#e6db74">&#34;Notifications about scheduled events&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">notificationManager</span>.<span style="color:#a6e22e">createNotificationChannel</span>(<span style="color:#a6e22e">channel</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>These enhancements demonstrate my ability to work with modern APIs and build
+responsive, scalable mobile applications.</p>
+<p><strong>Security Mindset and Defensive Design</strong></p>
+<p>Security has been a consistent focus throughout my work. In the
+dashboard project, I used environment variables to protect credentials:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#e6db74">&#34;AAC_USERNAME&#34;</span>: os<span style="color:#f92672">.</span>getenv(<span style="color:#e6db74">&#34;AAC_USERNAME&#34;</span>, <span style="color:#e6db74">&#34;aacuser&#34;</span>)
+</span></span></code></pre></div><p>I also added defensive checks to prevent runtime errors:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>isfile(IMAGE_FILENAME):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">raise</span> <span style="color:#a6e22e">FileNotFoundError</span>(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Logo image &#39;</span><span style="color:#e6db74">{</span>IMAGE_FILENAME<span style="color:#e6db74">}</span><span style="color:#e6db74">&#39; not found.&#34;</span>)
+</span></span></code></pre></div><p>In my web authentication system, I resolved JWT timing issues by reading
+tokens directly from cookies and applying them to outgoing requests:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">token</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">cookieService</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;auth_token&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">headers</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">HttpHeaders</span>().<span style="color:#a6e22e">set</span>(<span style="color:#e6db74">&#39;Authorization&#39;</span>, <span style="color:#e6db74">`Bearer </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">token</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">API_URL</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/secure-data`</span>, { <span style="color:#a6e22e">headers</span> });
+</span></span></code></pre></div><p>I also configured CORS on the backend to support cross-origin communication:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">use</span>(<span style="color:#a6e22e">cors</span>({
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">origin</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;http://localhost:4200&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">credentials</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>}));
+</span></span></code></pre></div><p>These examples reflect my ability to anticipate vulnerabilities, enforce
+permission checks, and design systems that prioritize privacy and
+resilience.</p>
+<p><strong>Portfolio Cohesion and Artifact Integration</strong></p>
+<p>The three artifacts in this portfolio were selected to showcase distinct
+areas of expertise:</p>
 <ul>
-<li>I rock a great mustache</li>
-<li>I&rsquo;m extremely loyal to my family</li>
+<li>
+<p><strong>Artifact One: Event Track App (Android)</strong><br>
+Demonstrates software engineering and design through modular
+architecture, UI localization, and Firebase integration.</p>
+</li>
+<li>
+<p><strong>Artifact Two: Animal Shelter Dashboard (Python/Dash/MongoDB)</strong><br>
+Highlights algorithmic thinking and data structure fluency through
+abstraction, fault tolerance, and consistent data handling.</p>
+</li>
+<li>
+<p><strong>Artifact Three: Web Authentication System (Angular/Express.js)</strong><br>
+Represents database and security expertise through secure token
+workflows, CORS configuration, and user feedback enhancements.</p>
+</li>
 </ul>
-<p>What else do you need?</p>
-<h3 id="my-history">my history</h3>
-<p>To be honest, I&rsquo;m having some trouble remembering right now, so why don&rsquo;t you just watch <a href="https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29">my movie</a> and it will answer <strong>all</strong> your questions.</p>
+<p>Together, these artifacts form a cohesive narrative of my growth as a
+developer. They illustrate my ability to work across full-stack
+environments, integrate modern tools, and build systems that are secure,
+maintainable, and user-friendly. This portfolio is not just a showcase
+of technical skills. It is a reflection of my values as a
+problem-solver, communicator, and lifelong learner in the field of
+computer science.</p>
 
 
         
