@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Adrienne Sturgeon</title>
-    <link>http://localhost:64602/categories/</link>
-    <description>Recent content in Categories on Adrienne Sturgeon</description>
+    <title>Performance Gallery on Adrienne Sturgeon</title>
+    <link>http://localhost:64602/instagram/</link>
+    <description>Recent content in Performance Gallery on Adrienne Sturgeon</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>adrienne@example.com (Adrienne Sturgeon)</managingEditor>
     <webMaster>adrienne@example.com (Adrienne Sturgeon)</webMaster>
-    <atom:link href="http://localhost:64602/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:64602/instagram/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

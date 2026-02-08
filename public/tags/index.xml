@@ -2,41 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Adrienne Sturgeon</title>
-    <link>https://AdrienneSturgeon.github.io/tags/</link>
+    <link>http://localhost:64602/tags/</link>
     <description>Recent content in Tags on Adrienne Sturgeon</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</managingEditor>
-    <webMaster>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</webMaster>
-    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://AdrienneSturgeon.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Code</title>
-      <link>https://AdrienneSturgeon.github.io/tags/code/</link>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
-      <guid>https://AdrienneSturgeon.github.io/tags/code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Example</title>
-      <link>https://AdrienneSturgeon.github.io/tags/example/</link>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
-      <guid>https://AdrienneSturgeon.github.io/tags/example/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Math</title>
-      <link>https://AdrienneSturgeon.github.io/tags/math/</link>
-      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
-      <guid>https://AdrienneSturgeon.github.io/tags/math/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bigimg</title>
-      <link>https://AdrienneSturgeon.github.io/tags/bigimg/</link>
-      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
-      <guid>https://AdrienneSturgeon.github.io/tags/bigimg/</guid>
-      <description></description>
-    </item>
+    <managingEditor>adrienne@example.com (Adrienne Sturgeon)</managingEditor>
+    <webMaster>adrienne@example.com (Adrienne Sturgeon)</webMaster>
+    <atom:link href="http://localhost:64602/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

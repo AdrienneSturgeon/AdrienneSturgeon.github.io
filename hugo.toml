@@ -9,6 +9,7 @@ pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
+ignoreLogs = ["warning-goldmark-raw-html"]
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 
@@ -20,10 +21,10 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Software Developer"
-  mainSections = ["post","posts"]
+  subtitle = "Professional Aerial Silks Performer"
+  mainSections = ["post","posts","instagram"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
+  favicon = "img/avatar-icon.png"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
@@ -55,9 +56,8 @@ pygmentsCodefencesGuessSyntax = true
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "Adrienne Sturgeon"
   website = "https://adriennesturgeon.github.io/"
-  email = "adrienne.sturgeon@snhu.edu"
-  # facebook = "username"
-  github = "adriennesturgeon"
+  email = "adrienne@example.com"
+  instagram = "adrienne_silks"
   # gitlab = "username"
   # bitbucket = "username"
   # twitter = "username"
@@ -88,39 +88,26 @@ pygmentsCodefencesGuessSyntax = true
   # bluesky = "username"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Home"
     url = ""
     weight = 1
 
 [[menu.main]]
-    name = "Assessment"
+    name = "About"
     url = "page/about/"
-    weight = 3
-
-[[menu.main]]
-    identifier = "samples"
-    name = "Projects"
     weight = 2
 
 [[menu.main]]
-    parent = "samples"
-    name = "Event Track App"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
-
-[[menu.main]]
-    parent = "samples"
-    name = "Salvadore Dash App"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Travlr Full Stack App"
-    url = "post/2016-03-08-code-sample"
+    name = "Gallery"
+    url = "instagram/"
     weight = 3
 
 [[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+    name = "Classes"
+    url = "page/classes/"
+    weight = 4
+
+[[menu.main]]
+    name = "Contact"
+    url = "page/contact/"
+    weight = 5

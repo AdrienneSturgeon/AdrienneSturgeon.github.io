@@ -1,0 +1,8 @@
+.instagram-gallery{max-width:1200px;margin:0 auto;padding:2rem}
+.instagram-gallery .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}
+.insta-item{background:#fff;border:1px solid #eee;padding:0;overflow:hidden}
+.insta-item img,.insta-item video{width:100%;height:auto;display:block}
+.insta-item figcaption{padding:0.5rem 0.75rem;font-size:0.95rem;color:#333}
+.insta-item .meta{padding:0 0.75rem 0.75rem;font-size:0.85rem;color:#666}
+.carousel-preview{display:flex;gap:4px}
+.carousel-preview img{width:50%;object-fit:cover}

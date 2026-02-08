@@ -1,3 +1,22 @@
-## 👋 Welcome!
+---
+title: "Adrienne Sturgeon"
+subtitle: "Professional Aerial Silks Performer"
+bigimg: 
+comments: false
+---
 
-Hi, I'm Adrienne Sturgeon. I'm a methodical and security-focused software developer with a passion for building scalable, user-centered applications. I specialize in full-stack development, cloud-native workflows, and defensive design. This portfolio showcases my journey through the Computer Science program at SNHU, highlighting projects that reflect my growth in software engineering, data structures, and database design. Whether I'm troubleshooting legacy code, integrating Firebase notifications, or refining authentication systems, I bring a thoughtful, resilient approach to solving real-world problems. Thanks for visiting!
+## Welcome to Adrienne's Performance Portfolio
+
+Step into the world of aerial silks—a breathtaking blend of strength, grace, and artistry. As a professional performer, Adrienne Sturgeon brings elegance and athleticism to every performance, from intimate events to large-scale productions.
+
+### Explore
+
+- **Performance Gallery**: Watch stunning aerial silks performances and competition highlights
+- **About Adrienne**: Learn about her journey, training, and artistic vision
+- **Bookings & Inquiries**: Connect for performance opportunities
+
+**Interested in a performance?** [Get in touch](/page/contact/) to discuss your event.
+
+---
+
+*Aerial silks is poetry in motion—a celebration of what the human body can achieve.*

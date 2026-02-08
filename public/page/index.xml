@@ -2,19 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Adrienne Sturgeon</title>
-    <link>https://AdrienneSturgeon.github.io/page/</link>
+    <link>http://localhost:64602/page/</link>
     <description>Recent content in Pages on Adrienne Sturgeon</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</managingEditor>
-    <webMaster>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</webMaster>
-    <atom:link href="https://AdrienneSturgeon.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>adrienne@example.com (Adrienne Sturgeon)</managingEditor>
+    <webMaster>adrienne@example.com (Adrienne Sturgeon)</webMaster>
+    <atom:link href="http://localhost:64602/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Professional Self Assessment</title>
-      <link>https://AdrienneSturgeon.github.io/page/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
-      <guid>https://AdrienneSturgeon.github.io/page/about/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Professional Self-Assessment&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Adrienne Sturgeon – CS-499 Capstone Portfolio&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;As I complete the Computer Science program and present this ePortfolio,&#xA;I reflect on a journey marked by growth, resilience, and a deepening&#xA;commitment to secure, scalable, and user-centered software development.&#xA;This portfolio represents not only my technical capabilities but also my&#xA;ability to communicate, collaborate, and solve complex problems across&#xA;diverse computing environments. Through coursework, project&#xA;enhancements, and reflective practice, I’ve developed a strong&#xA;foundation in full-stack development, cloud-native workflows, and&#xA;defensive design which are skills that position me to contribute&#xA;meaningfully to the software industry.&lt;/p&gt;</description>
+      <title>About Adrienne</title>
+      <link>http://localhost:64602/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>adrienne@example.com (Adrienne Sturgeon)</author>
+      <guid>http://localhost:64602/page/about/</guid>
+      <description>&lt;h2 id=&#34;my-journey&#34;&gt;My Journey&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m Adrienne Sturgeon, a professional aerial silks performer with a passion for artistry, strength, and pushing the boundaries of human movement. My performances combine technical mastery with artistic expression, creating unforgettable experiences for audiences.&lt;/p&gt;&#xA;&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Training&lt;/strong&gt;: [Your training background and key instructors]&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Performances&lt;/strong&gt;: [Broadway-adjacent productions, circus festivals, corporate events, special performances]&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Competitions&lt;/strong&gt;: [Competition highlights and achievements]&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Specializations&lt;/strong&gt;: Aerial silks choreography, performance art, event performances&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;artistic-vision&#34;&gt;Artistic Vision&lt;/h3&gt;&#xA;&lt;p&gt;I believe that aerial silks is a form of poetry—a language where the body speaks without words. My performances aim to:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Classes &amp; Bookings</title>
+      <link>http://localhost:64602/page/classes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>adrienne@example.com (Adrienne Sturgeon)</author>
+      <guid>http://localhost:64602/page/classes/</guid>
+      <description>&lt;h2 id=&#34;book-your-performance&#34;&gt;Book Your Performance&lt;/h2&gt;&#xA;&lt;p&gt;Use the scheduling system below to check availability and book Adrienne for your event.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Have questions? &lt;a href=&#34;http://localhost:64602/page/contact/&#34;&gt;Contact Adrienne directly&lt;/a&gt; for more information.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Get in Touch</title>
+      <link>http://localhost:64602/page/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>adrienne@example.com (Adrienne Sturgeon)</author>
+      <guid>http://localhost:64602/page/contact/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;d love to hear from you about performance opportunities! Whether you&amp;rsquo;re looking to book aerial silks for your event, interested in a collaboration, or have questions about my work, reach out below.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact-form&#34;&gt;Contact Form&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Send Message&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;other-ways-to-connect&#34;&gt;Other Ways to Connect&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:adrienne@example.com&#34;&gt;adrienne@example.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Phone&lt;/strong&gt;: (555) 123-4567&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Instagram&lt;/strong&gt;: &lt;a href=&#34;https://instagram.com/adrienne_silks&#34;&gt;@adrienne_silks&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Booking Platform&lt;/strong&gt;: See &lt;a href=&#34;http://localhost:64602/page/classes/&#34;&gt;Bookings &amp;amp; Availability&lt;/a&gt; for event scheduling&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;faqs&#34;&gt;FAQs&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Q: How far in advance should I book?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

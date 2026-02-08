@@ -1,0 +1,675 @@
+/* Lilac & Gold Theme Override - Comprehensive */
+
+:root {
+  --lilac: #B19CD9;
+  --lilac-dark: #9370DB;
+  --lilac-light: #DCC9E8;
+  --gold: #D4AF37;
+  --gold-dark: #AA8C2D;
+  --dark-bg: #2E2E3E;
+  --light-text: #F5F5F5;
+}
+
+/* ============== BODY & BASE TEXT ============== */
+
+body {
+  background-color: #FFF;
+  color: #333;
+}
+
+p {
+  color: #404040;
+}
+
+/* ============== HEADINGS ============== */
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--lilac-dark);
+  font-weight: 800;
+}
+
+h1 {
+  color: var(--lilac-dark);
+  border-bottom: 3px solid var(--gold);
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+h2 {
+  color: var(--lilac-dark);
+  border-left: 5px solid var(--gold);
+  padding-left: 15px;
+  margin: 30px 0 20px 0;
+}
+
+h3, h4, h5, h6 {
+  color: var(--lilac-dark);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+/* ============== EMPHASIS ============== */
+
+strong, b {
+  color: var(--lilac-dark);
+  font-weight: 900;
+}
+
+em, i {
+  color: var(--gold-dark);
+  font-style: italic;
+}
+
+/* ============== LINKS ============== */
+
+p a,
+a {
+  color: var(--lilac-dark);
+  text-decoration: underline;
+}
+
+p a:hover,
+a:hover,
+a:focus {
+  color: var(--gold-dark);
+  text-decoration: underline;
+}
+
+/* ============== LISTS ============== */
+
+ul, ol {
+  color: #404040;
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+li {
+  color: #404040;
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+li strong {
+  color: var(--lilac-dark);
+}
+
+/* ============== BLOCKQUOTES ============== */
+
+blockquote {
+  border-left: 5px solid var(--gold);
+  padding-left: 20px;
+  margin: 25px 0;
+  color: var(--lilac-dark);
+  font-style: italic;
+  background-color: rgba(212, 175, 55, 0.05);
+  padding: 15px 20px;
+}
+
+blockquote p {
+  color: var(--lilac-dark);
+  margin: 0;
+}
+
+blockquote strong {
+  color: var(--lilac-dark);
+  font-weight: 900;
+}
+
+/* ============== TABLES ============== */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+}
+
+thead {
+  background-color: var(--lilac-dark);
+  color: white;
+}
+
+thead th {
+  color: white;
+  background-color: var(--lilac-dark);
+  padding: 15px;
+  text-align: left;
+  font-weight: 700;
+  border: 1px solid var(--lilac);
+}
+
+tbody tr {
+  border-bottom: 1px solid var(--lilac-light);
+}
+
+tbody tr:hover {
+  background-color: var(--lilac-light);
+}
+
+tbody td {
+  color: #404040;
+  padding: 12px 15px;
+  border: 1px solid var(--lilac-light);
+}
+
+tbody td strong {
+  color: var(--lilac-dark);
+}
+
+/* ============== FORMS ============== */
+
+label {
+  color: var(--lilac-dark);
+  font-weight: 700;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  border: 2px solid var(--lilac);
+  color: #333;
+  background-color: white;
+}
+
+.form-control:focus {
+  border-color: var(--lilac-dark);
+  box-shadow: 0 0 0 0.3rem rgba(177, 156, 217, 0.25);
+  outline: none;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* ============== BUTTONS ============== */
+
+.btn,
+button,
+input[type="button"],
+input[type="submit"] {
+  font-weight: 700;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-default {
+  color: white;
+  background-color: var(--lilac-dark);
+  border: 2px solid var(--lilac-dark);
+}
+
+.btn-default:hover {
+  color: white;
+  background-color: var(--gold-dark);
+  border-color: var(--gold-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(177, 156, 217, 0.3);
+}
+
+.btn-lg {
+  background-color: var(--gold);
+  color: var(--dark-bg);
+  border: 2px solid var(--gold);
+  padding: 12px 30px;
+  font-size: 1.1em;
+}
+
+.btn-lg:hover {
+  background-color: var(--gold-dark);
+  border-color: var(--gold-dark);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
+}
+
+/* ============== HEADER STYLING ============== */
+
+.intro-header {
+  background-color: var(--lilac-dark);
+  background-image: linear-gradient(135deg, var(--lilac-dark) 0%, var(--lilac) 100%);
+  color: white;
+  padding: 100px 0;
+}
+
+.intro-header .page-heading,
+.intro-header .post-heading,
+.intro-header .section-heading {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.intro-header .page-heading h1 {
+  color: white;
+  border: none;
+}
+
+.intro-header .page-subheading {
+  color: var(--lilac-light);
+  font-size: 1.3em;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* ============== NAVIGATION ============== */
+
+.navbar {
+  background-color: white;
+  border-bottom: 3px solid var(--gold);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-default .navbar-brand {
+  color: var(--lilac-dark);
+  font-weight: 800;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: var(--gold-dark);
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: var(--lilac-dark);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: var(--gold);
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: white;
+  background-color: var(--lilac-dark);
+  border-radius: 5px;
+}
+
+/* ============== POST/PAGE METADATA ============== */
+
+.post-meta,
+.post-heading .post-meta {
+  color: var(--lilac-dark);
+  font-weight: 600;
+}
+
+.post-date,
+.post-date-time {
+  color: var(--lilac-dark);
+}
+
+.post-tags {
+  margin-top: 15px;
+}
+
+.post-tag {
+  display: inline-block;
+  background-color: var(--lilac);
+  color: white;
+  padding: 5px 12px;
+  margin: 5px 5px 5px 0;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.post-tag:hover {
+  background-color: var(--gold-dark);
+  box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+}
+
+/* ============== PAGINATION & RELATED ============== */
+
+.pager li > a {
+  color: white;
+  background-color: var(--lilac-dark);
+  border: 2px solid var(--lilac-dark);
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.pager li > a:hover {
+  background-color: var(--gold);
+  border-color: var(--gold);
+  color: var(--dark-bg);
+}
+
+.pager li .disabled > a {
+  background-color: #ddd;
+  color: #666;
+  border-color: #ddd;
+}
+
+/* ============== FEATURED SECTIONS ============== */
+
+.featured-section {
+  background: linear-gradient(135deg, var(--lilac-light) 0%, white 100%);
+  padding: 40px;
+  margin: 40px 0;
+  border-left: 5px solid var(--gold);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(177, 156, 217, 0.15);
+}
+
+.featured-section h2 {
+  color: var(--lilac-dark);
+  margin-top: 0;
+  border: none;
+  padding: 0;
+}
+
+.featured-section p {
+  color: #404040;
+}
+
+.featured-section strong {
+  color: var(--lilac-dark);
+}
+
+/* ============== SCHEDULE/CLASS TABLE ============== */
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+}
+
+.schedule-table thead {
+  background-color: var(--lilac-dark);
+}
+
+.schedule-table th {
+  background-color: var(--lilac-dark);
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-weight: 700;
+  border: 1px solid var(--lilac);
+}
+
+.schedule-table td {
+  color: #404040;
+  padding: 12px 15px;
+  border: 1px solid var(--lilac-light);
+}
+
+.schedule-table tr:hover {
+  background-color: var(--lilac-light);
+}
+
+/* ============== CARDS ============== */
+
+.card {
+  border: 2px solid var(--lilac);
+  box-shadow: 0 4px 12px rgba(177, 156, 217, 0.15);
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.card-header {
+  background-color: var(--lilac);
+  color: white;
+  border: none;
+  padding: 15px;
+  font-weight: 700;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body p {
+  color: #404040;
+}
+
+.card-body strong {
+  color: var(--lilac-dark);
+}
+
+.card .btn {
+  background-color: var(--lilac-dark);
+  border-color: var(--lilac-dark);
+  color: white;
+}
+
+.card .btn:hover {
+  background-color: var(--gold);
+  border-color: var(--gold);
+  color: var(--dark-bg);
+}
+
+/* ============== TESTIMONIALS ============== */
+
+.testimonial {
+  border-left: 5px solid var(--gold);
+  padding: 20px;
+  margin: 30px 0;
+  font-style: italic;
+  background-color: rgba(212, 175, 55, 0.05);
+  border-radius: 5px;
+  color: var(--lilac-dark);
+}
+
+.testimonial::before {
+  content: '"';
+  font-size: 3em;
+  color: var(--gold);
+  line-height: 0;
+  vertical-align: -0.4em;
+  margin-right: 5px;
+}
+
+.testimonial p {
+  color: var(--lilac-dark);
+  margin: 10px 0;
+}
+
+.testimonial strong {
+  color: var(--lilac-dark);
+  font-weight: 900;
+}
+
+/* ============== INSTAGRAM GALLERY ============== */
+
+.instagram-gallery {
+  background: linear-gradient(135deg, var(--lilac-light) 0%, white 100%);
+  padding: 40px;
+  border-radius: 8px;
+  margin: 40px 0;
+  border-left: 5px solid var(--gold);
+}
+
+.instagram-gallery h1,
+.instagram-gallery h2 {
+  color: var(--lilac-dark);
+  border: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.instagram-gallery .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.insta-item {
+  border: 2px solid var(--lilac);
+  box-shadow: 0 4px 12px rgba(177, 156, 217, 0.2);
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.insta-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(212, 175, 55, 0.4);
+  border-color: var(--gold);
+}
+
+.insta-item figcaption {
+  color: var(--lilac-dark);
+  font-weight: 600;
+  padding: 10px;
+  background-color: var(--lilac-light);
+}
+
+.insta-item .meta {
+  color: var(--gold-dark);
+  font-size: 0.9em;
+  padding: 8px 10px;
+  font-weight: 600;
+}
+
+.insta-item .meta a {
+  color: var(--lilac-dark);
+}
+
+.insta-item .meta a:hover {
+  color: var(--gold);
+}
+
+/* ============== CODE BLOCKS ============== */
+
+code, pre {
+  color: var(--lilac-dark);
+  background-color: rgba(177, 156, 217, 0.1);
+  border: 1px solid var(--lilac);
+}
+
+pre {
+  border-radius: 5px;
+  padding: 15px;
+  overflow-x: auto;
+}
+
+code {
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+/* ============== DIVIDERS & SEPARATORS ============== */
+
+hr {
+  border-color: var(--lilac);
+  margin: 40px 0;
+}
+
+hr.small {
+  border-color: var(--lilac);
+  max-width: 200px;
+  margin: 20px auto;
+}
+
+/* ============== FOOTER ============== */
+
+footer {
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  border-top: 3px solid var(--gold);
+  padding: 40px 0 20px 0;
+}
+
+footer h3, footer h4, footer h5 {
+  color: var(--lilac-light);
+}
+
+footer p {
+  color: var(--light-text);
+}
+
+footer a {
+  color: var(--lilac-light);
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: var(--gold);
+}
+
+footer .social-icons a {
+  color: var(--lilac-light);
+  margin: 0 10px;
+}
+
+footer .social-icons a:hover {
+  color: var(--gold);
+  transform: scale(1.2);
+}
+
+/* ============== BADGE & LABELS ============== */
+
+.badge {
+  background-color: var(--lilac-dark);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  display: inline-block;
+  margin: 3px;
+}
+
+.badge:hover {
+  background-color: var(--gold-dark);
+}
+
+.label {
+  background-color: var(--lilac);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: 700;
+  display: inline-block;
+  margin: 3px;
+}
+
+/* ============== RESPONSIVE & UTILITIES ============== */
+
+@media only screen and (max-width: 768px) {
+  h1, h2, h3 {
+    font-size: 1.2em;
+  }
+
+  .featured-section {
+    padding: 20px;
+  }
+
+  .schedule-table {
+    font-size: 14px;
+  }
+
+  .schedule-table th,
+  .schedule-table td {
+    padding: 8px;
+  }
+
+  .instagram-gallery {
+    padding: 20px;
+  }
+
+  blockquote {
+    padding-left: 15px;
+    margin-left: 0;
+  }
+}
+
+/* Ensure print styles respect colors */
+@media print {
+  body, p, h1, h2, h3, h4, h5, h6 {
+    color: #000;
+  }
+
+  a {
+    color: var(--lilac-dark);
+  }
+}

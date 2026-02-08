@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Example on Adrienne Sturgeon</title>
-    <link>https://AdrienneSturgeon.github.io/tags/example/</link>
-    <description>Recent content in Example on Adrienne Sturgeon</description>
+    <title>Example on Adrienne Sturgeon - Aerial Silks &amp; Gymnastics</title>
+    <link>http://localhost:1313/tags/example/</link>
+    <description>Recent content in Example on Adrienne Sturgeon - Aerial Silks &amp; Gymnastics</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</managingEditor>
-    <webMaster>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</webMaster>
+    <managingEditor>adrienne@example.com (Adrienne Sturgeon)</managingEditor>
+    <webMaster>adrienne@example.com (Adrienne Sturgeon)</webMaster>
     <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://AdrienneSturgeon.github.io/tags/example/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Travlr Full Stack App</title>
-      <link>https://AdrienneSturgeon.github.io/post/2016-03-08-code-sample/</link>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
-      <guid>https://AdrienneSturgeon.github.io/post/2016-03-08-code-sample/</guid>
+      <link>http://localhost:1313/post/2016-03-08-code-sample/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><author>adrienne@example.com (Adrienne Sturgeon)</author>
+      <guid>http://localhost:1313/post/2016-03-08-code-sample/</guid>
       <description>&lt;p&gt;I have provided a link to download the Travlr App Original and Improved Versions Here:&#xA;&lt;a href=&#34;https://snhu-my.sharepoint.com/:f:/r/personal/adrienne_sturgeon_snhu_edu/Documents/CS-499/Artifacts/Artifact%20Three?csf=1&amp;amp;web=1&amp;amp;e=M2zhmr&#34;&gt;Travlr App&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Artifact Three Narrative&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Artifact Overview&lt;/strong&gt;&lt;br&gt;&#xA;This artifact is a web authentication system that uses Angular for the&#xA;frontend and Express.js for the backend. It supports secure logins by&#xA;storing JSON Web Tokens (JWT) in cookies, allowing authenticated access&#xA;without revealing sensitive credentials. The system started with a focus&#xA;on creating smooth and secure login experiences. Through successive&#xA;improvements, it became more efficient in managing token timing, error&#xA;reporting, and frontend-backend interactions. I was also able to&#xA;successfully implement an authorization strategy in addition to the&#xA;existing authentication system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Salvadore Dash App</title>
-      <link>https://AdrienneSturgeon.github.io/post/2017-03-05-math-sample/</link>
-      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
-      <guid>https://AdrienneSturgeon.github.io/post/2017-03-05-math-sample/</guid>
+      <link>http://localhost:1313/post/2017-03-05-math-sample/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate><author>adrienne@example.com (Adrienne Sturgeon)</author>
+      <guid>http://localhost:1313/post/2017-03-05-math-sample/</guid>
       <description>&lt;p&gt;I have provided a link to download the Salvadore Dash App Original and Improved Versions Here:&#xA;&lt;a href=&#34;https://snhu-my.sharepoint.com/:f:/r/personal/adrienne_sturgeon_snhu_edu/Documents/CS-499/Artifacts/Artifact%20Two?csf=1&amp;amp;web=1&amp;amp;e=TfYzaV&#34;&gt;Salvadore Dash App&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Artifact Two Narrative&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Briefly describe the artifact. What is it? When was it created?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The artifact is a Jupyter Notebook project titled&#xA;ProjectTwoDashboard.ipynb, created to support an interactive dashboard&#xA;for visualizing animal shelter data in my CS-340 course. It was built&#xA;using Python, Dash, and MongoDB and first developed during Module One of&#xA;the course. The dashboard allows users to view and filter dog profiles&#xA;by breed, rescue suitability, and location. It integrates components&#xA;like charts, a dynamic data table, and a geolocation map for individual&#xA;animal entries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Event Track App</title>
-      <link>https://AdrienneSturgeon.github.io/post/2017-03-07-bigimg-sample/</link>
-      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate><author>adrienne.sturgeon@snhu.edu (Adrienne Sturgeon)</author>
-      <guid>https://AdrienneSturgeon.github.io/post/2017-03-07-bigimg-sample/</guid>
+      <link>http://localhost:1313/post/2017-03-07-bigimg-sample/</link>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate><author>adrienne@example.com (Adrienne Sturgeon)</author>
+      <guid>http://localhost:1313/post/2017-03-07-bigimg-sample/</guid>
       <description>&lt;p&gt;I have provided a link to download the Event Track App Original and Improved Versions Here:&#xA;&lt;a href=&#34;https://snhu-my.sharepoint.com/:f:/r/personal/adrienne_sturgeon_snhu_edu/Documents/CS-499/Artifacts/Artifact%20One?csf=1&amp;amp;web=1&amp;amp;e=S2HtWs&#34;&gt;Event Track App&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Event Track App: Artifact Enhancement Narrative&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What is the artifact? When was it created?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Event Track App is a mobile Android application originally built as&#xA;part of my software development coursework in CS-360. It is designed to&#xA;help users log, view, and receive notifications about scheduled events.&#xA;The app was created in early Februrary 2025 and refined throughout this&#xA;month as part of a comprehensive enhancement process. It consists of&#xA;multiple interconnected classes (MainActivity, EventDisplayActivity,&#xA;RegisterActivity, SMSNotificationsActivity, and DatabaseHelper)&#xA;supporting user authentication, event CRUD operations, and notification&#xA;workflows.&lt;/p&gt;</description>
     </item>
   </channel>
