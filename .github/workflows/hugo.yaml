@@ -58,7 +58,6 @@ jobs:
         with:
           node-version: '18'
       - name: Fetch Instagram media
-        if: ${{ secrets.INSTAGRAM_TOKEN }}
         env:
           INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
