@@ -297,7 +297,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;25&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;57&nbsp;words
   
   
     
@@ -313,10 +313,9 @@
         
         <h2 id="book-your-performance">Book Your Performance</h2>
 <p>Use the scheduling system below to check availability and book Adrienne for your event.</p>
-<!-- raw HTML omitted -->
-<hr>
-<p>Have questions? <a href="/page/contact/">Contact Adrienne directly</a> for more information.</p>
-
+<div style="width: 100%; margin: 40px 0; padding: 60px 20px; border: 3px solid #9370DB; border-radius: 8px; background: linear-gradient(135deg, rgba(147, 112, 219, 0.1) 0%, rgba(147, 112, 219, 0.05) 100%); text-align: center; box-shadow: 0 4px 12px rgba(177, 156, 217, 0.3);">
+  <p style="margin: 0 0 30px 0; font-size: 18px; color: #333;">Sign in to access the booking system and view available classes and events.</p>
+        <a href="http://localhost:1313/page/classes/" class="post-read-more">[Read More]</a>
         
     </div>
 
@@ -343,10 +342,10 @@
   <i class="fas fa-calendar"></i>&nbsp;Posted on January 1, 0001
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;204&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;234&nbsp;words
   
   
     
@@ -362,23 +361,31 @@
         
         <p>I&rsquo;d love to hear from you about performance opportunities! Whether you&rsquo;re looking to book aerial silks for your event, interested in a collaboration, or have questions about my work, reach out below.</p>
 <h2 id="contact-form">Contact Form</h2>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted -->Send Message<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<hr>
-<h2 id="other-ways-to-connect">Other Ways to Connect</h2>
-<ul>
-<li><strong>Email</strong>: <a href="mailto:adrienne@example.com">adrienne@example.com</a></li>
-<li><strong>Phone</strong>: (555) 123-4567</li>
-<li><strong>Instagram</strong>: <a href="https://instagram.com/adrienne_silks">@adrienne_silks</a></li>
-<li><strong>Booking Platform</strong>: See <a href="/page/classes/">Bookings &amp; Availability</a> for event scheduling</li>
-</ul>
-<hr>
-<h2 id="faqs">FAQs</h2>
-<p><strong>Q: How far in advance should I book?</strong></p>
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+  <div class="form-group">
+    <label for="name">Your Name *</label>
+    <input type="text" class="form-control" id="name" name="name" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email Address *</label>
+    <input type="email" class="form-control" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label for="subject">Inquiry Type *</label>
+    <select class="form-control" id="subject" name="subject" required>
+      <option value="">-- Select --</option>
+      <option value="Corporate Event Booking">Corporate Event Booking</option>
+      <option value="Theatrical Performance">Theatrical Performance</option>
+      <option value="Festival & Competition">Festival & Competition</option>
+      <option value="Custom Performance">Custom Performance Inquiry</option>
+      <option value="General Inquiry">General Inquiry</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="message">Message & Event Details *</label>
+    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tell me about your event, date, venue, and what you envision for the performance..." required></textarea>
+  </div>
+<p><button type="submit" class="btn btn-lg btn-default">Send Message</button></p>
         <a href="http://localhost:1313/page/contact/" class="post-read-more">[Read More]</a>
         
     </div>
