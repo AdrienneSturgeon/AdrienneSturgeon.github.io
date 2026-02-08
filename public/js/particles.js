@@ -29,56 +29,50 @@ class Particle {
     ctx.translate(this.x, this.y);
     ctx.rotate(this.rotation);
     
-    // Draw aerial silks performer in inverted pose
+    // Draw rescue 8 carabiner in gold
     ctx.strokeStyle = '#D4AF37'; // Golden color
     ctx.fillStyle = '#D4AF37';
     ctx.lineWidth = 2;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
     
-    // Head (top, inverted)
+    // Top large loop
     ctx.beginPath();
-    ctx.arc(0, -6, 2, 0, Math.PI * 2);
-    ctx.fill();
-    
-    // Body (vertical line from head)
-    ctx.beginPath();
-    ctx.moveTo(0, -4);
-    ctx.lineTo(0, 2);
+    ctx.arc(0, -4, 5, 0, Math.PI * 2);
     ctx.stroke();
     
-    // Left arm extended
+    // Left ear/attachment
     ctx.beginPath();
-    ctx.moveTo(0, -2);
-    ctx.lineTo(-7, -5);
+    ctx.moveTo(-4, -3);
+    ctx.quadraticCurveTo(-7, -2, -6.5, 0);
     ctx.stroke();
     
-    // Right arm extended
+    // Right ear/attachment
     ctx.beginPath();
-    ctx.moveTo(0, -2);
-    ctx.lineTo(7, -5);
+    ctx.moveTo(4, -3);
+    ctx.quadraticCurveTo(7, -2, 6.5, 0);
     ctx.stroke();
     
-    // Left leg extended up
+    // Left side of narrow middle section
     ctx.beginPath();
-    ctx.moveTo(-1, 2);
-    ctx.lineTo(-6, -4);
+    ctx.moveTo(-2.5, 1);
+    ctx.lineTo(-2, 4);
     ctx.stroke();
     
-    // Right leg extended up
+    // Right side of narrow middle section
     ctx.beginPath();
-    ctx.moveTo(1, 2);
-    ctx.lineTo(6, -4);
+    ctx.moveTo(2.5, 1);
+    ctx.lineTo(2, 4);
     ctx.stroke();
     
-    // Left silk flowing line
+    // Middle gate/chamber (oval shape)
     ctx.beginPath();
-    ctx.moveTo(-7, -5);
-    ctx.bezierCurveTo(-9, 0, -7, 8, -3, 10);
+    ctx.ellipse(0, 2.5, 2, 2, 0, 0, Math.PI * 2);
     ctx.stroke();
     
-    // Right silk flowing line
+    // Bottom smaller loop
     ctx.beginPath();
-    ctx.moveTo(7, -5);
-    ctx.bezierCurveTo(9, 0, 7, 8, 3, 10);
+    ctx.arc(0, 7, 3.5, 0, Math.PI * 2);
     ctx.stroke();
     
     ctx.restore();

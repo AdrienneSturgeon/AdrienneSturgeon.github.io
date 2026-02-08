@@ -31,38 +31,48 @@ class Particle {
     
     // Draw rescue 8 carabiner in gold
     ctx.strokeStyle = '#D4AF37'; // Golden color
-    ctx.lineWidth = 1.8;
+    ctx.fillStyle = '#D4AF37';
+    ctx.lineWidth = 2;
     ctx.lineCap = 'round';
     ctx.lineJoin = 'round';
     
-    // Top loop (larger)
+    // Top large loop
     ctx.beginPath();
-    ctx.arc(0, -3, 4, 0, Math.PI * 2);
+    ctx.arc(0, -4, 5, 0, Math.PI * 2);
     ctx.stroke();
     
-    // Bottom loop (larger) 
+    // Left ear/attachment
     ctx.beginPath();
-    ctx.arc(0, 4, 4.5, 0, Math.PI * 2);
+    ctx.moveTo(-4, -3);
+    ctx.quadraticCurveTo(-7, -2, -6.5, 0);
     ctx.stroke();
     
-    // Left upper attachment point
+    // Right ear/attachment
     ctx.beginPath();
-    ctx.arc(-4, -1, 1.5, 0, Math.PI * 2);
+    ctx.moveTo(4, -3);
+    ctx.quadraticCurveTo(7, -2, 6.5, 0);
     ctx.stroke();
     
-    // Right upper attachment point
+    // Left side of narrow middle section
     ctx.beginPath();
-    ctx.arc(4, -1, 1.5, 0, Math.PI * 2);
+    ctx.moveTo(-2.5, 1);
+    ctx.lineTo(-2, 4);
     ctx.stroke();
     
-    // Center connecting chamber
+    // Right side of narrow middle section
     ctx.beginPath();
-    ctx.ellipse(0, 1, 2, 3, 0, 0, Math.PI * 2);
+    ctx.moveTo(2.5, 1);
+    ctx.lineTo(2, 4);
     ctx.stroke();
     
-    // Bottom attachment point
+    // Middle gate/chamber (oval shape)
     ctx.beginPath();
-    ctx.arc(0, 8, 1.5, 0, Math.PI * 2);
+    ctx.ellipse(0, 2.5, 2, 2, 0, 0, Math.PI * 2);
+    ctx.stroke();
+    
+    // Bottom smaller loop
+    ctx.beginPath();
+    ctx.arc(0, 7, 3.5, 0, Math.PI * 2);
     ctx.stroke();
     
     ctx.restore();
