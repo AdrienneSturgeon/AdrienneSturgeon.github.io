@@ -29,56 +29,40 @@ class Particle {
     ctx.translate(this.x, this.y);
     ctx.rotate(this.rotation);
     
-    // Draw aerial silks performer in inverted pose
+    // Draw rescue 8 carabiner in gold
     ctx.strokeStyle = '#D4AF37'; // Golden color
-    ctx.fillStyle = '#D4AF37';
-    ctx.lineWidth = 2;
+    ctx.lineWidth = 1.8;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
     
-    // Head (top, inverted)
+    // Top loop (larger)
     ctx.beginPath();
-    ctx.arc(0, -6, 2, 0, Math.PI * 2);
-    ctx.fill();
-    
-    // Body (vertical line from head)
-    ctx.beginPath();
-    ctx.moveTo(0, -4);
-    ctx.lineTo(0, 2);
+    ctx.arc(0, -3, 4, 0, Math.PI * 2);
     ctx.stroke();
     
-    // Left arm extended
+    // Bottom loop (larger) 
     ctx.beginPath();
-    ctx.moveTo(0, -2);
-    ctx.lineTo(-7, -5);
+    ctx.arc(0, 4, 4.5, 0, Math.PI * 2);
     ctx.stroke();
     
-    // Right arm extended
+    // Left upper attachment point
     ctx.beginPath();
-    ctx.moveTo(0, -2);
-    ctx.lineTo(7, -5);
+    ctx.arc(-4, -1, 1.5, 0, Math.PI * 2);
     ctx.stroke();
     
-    // Left leg extended up
+    // Right upper attachment point
     ctx.beginPath();
-    ctx.moveTo(-1, 2);
-    ctx.lineTo(-6, -4);
+    ctx.arc(4, -1, 1.5, 0, Math.PI * 2);
     ctx.stroke();
     
-    // Right leg extended up
+    // Center connecting chamber
     ctx.beginPath();
-    ctx.moveTo(1, 2);
-    ctx.lineTo(6, -4);
+    ctx.ellipse(0, 1, 2, 3, 0, 0, Math.PI * 2);
     ctx.stroke();
     
-    // Left silk flowing line
+    // Bottom attachment point
     ctx.beginPath();
-    ctx.moveTo(-7, -5);
-    ctx.bezierCurveTo(-9, 0, -7, 8, -3, 10);
-    ctx.stroke();
-    
-    // Right silk flowing line
-    ctx.beginPath();
-    ctx.moveTo(7, -5);
-    ctx.bezierCurveTo(9, 0, 7, 8, 3, 10);
+    ctx.arc(0, 8, 1.5, 0, Math.PI * 2);
     ctx.stroke();
     
     ctx.restore();
