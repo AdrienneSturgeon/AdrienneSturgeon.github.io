@@ -45,7 +45,7 @@ I'd love to hear from you about performance opportunities! Whether you're lookin
 
 - **Email**: adrienne.sturgeon@outlook.com
 - **Phone**: (334) 372-9109
-- **Instagram**: [@adrienne_silks](https://instagram.com/adrienne_silks)
+- **Instagram**: [@adrienne.sturgeon](https://instagram.com/adrienne.sturgeon)
 - **Booking Platform**: See [Bookings & Availability](/page/classes/) for event scheduling
 
 ---

@@ -1,5 +1,10 @@
 /* Lilac & Gold Theme Override - Comprehensive */
 
+/* Force light theme - disable dark mode */
+html {
+  color-scheme: light;
+}
+
 :root {
   --lilac: #B19CD9;
   --lilac-dark: #9370DB;
@@ -681,5 +686,106 @@ footer .social-icons a:hover {
 
   a {
     color: var(--lilac-dark);
+  }
+}
+
+/* Force light theme - override any dark mode from theme */
+@media (prefers-color-scheme: dark) {
+  html,
+  html * {
+    color-scheme: light !important;
+  }
+  
+  body,
+  body > *:not(.navbar):not(.navbar-toggle) {
+    background: inherit !important;
+  }
+  
+  body {
+    background: #FFF !important;
+    color: #333 !important;
+  }
+  
+  .container[role=main] {
+    background: #FFF !important;
+    color: #333 !important;
+  }
+  
+  p {
+    color: #404040 !important;
+    background: transparent !important;
+  }
+  
+  a {
+    color: #008AFF !important;
+  }
+  
+  a:hover,
+  a:focus {
+    color: #0085a1 !important;
+  }
+  
+  /* Force all main content to be light */
+  main,
+  article,
+  section,
+  div:not(.navbar-toggle):not(.icon-bar):not(.intro-header):not(.intro-header *):not(.avatar-container):not(.avatar-img-border) {
+    background-color: inherit !important;
+  }
+  
+  .container[role=main] h1,
+  .container[role=main] h2,
+  .container[role=main] h3,
+  .container[role=main] h4,
+  .container[role=main] h5,
+  .container[role=main] h6 {
+    color: var(--lilac-dark) !important;
+    background: transparent !important;
+  }
+  
+  /* Keep intro-header titles white on the gradient */
+  .intro-header h1,
+  .intro-header h2,
+  .intro-header h3,
+  .intro-header h4,
+  .intro-header h5,
+  .intro-header h6 {
+    color: white !important;
+  }
+  
+  /* Ensure intro-header (home page welcome panel) stays light */
+  .intro-header,
+  .intro-header.big-img {
+    background: #FFF !important;
+    background-image: linear-gradient(135deg, var(--lilac-dark) 0%, var(--lilac) 100%) !important;
+  }
+  
+  .intro-header .page-heading,
+  .intro-header .post-heading,
+  .intro-header .section-heading,
+  .intro-header .page-heading h1,
+  .intro-header .post-heading h1 {
+    color: white !important;
+  }
+  
+  .intro-header .page-subheading,
+  .intro-header .post-subheading {
+    color: var(--lilac-light) !important;
+  }
+  
+  /* Ensure hamburger menu icon bars remain visible */
+  .navbar-toggle {
+    border-color: #ddd !important;
+    background-color: transparent !important;
+  }
+  
+  .navbar-toggle:focus,
+  .navbar-toggle:hover {
+    background-color: #ddd !important;
+  }
+  
+  .navbar-toggle .icon-bar {
+    background-color: #888 !important;
+    display: block !important;
   }
 }

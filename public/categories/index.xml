@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Adrienne Sturgeon</title><link>https://AdrienneSturgeon.github.io/categories/</link><description>Recent content in Categories on Adrienne Sturgeon</description><generator>Hugo</generator><language>en</language><managingEditor>adrienne@example.com (Adrienne Sturgeon)</managingEditor><webMaster>adrienne@example.com (Adrienne Sturgeon)</webMaster><atom:link href="https://AdrienneSturgeon.github.io/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Adrienne Sturgeon</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Adrienne Sturgeon</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>adrienne@example.com (Adrienne Sturgeon)</managingEditor>
+    <webMaster>adrienne@example.com (Adrienne Sturgeon)</webMaster>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,6 +1,5 @@
 {{ define "main" }}
 <section class="instagram-gallery">
-  <h1>{{ .Title }}</h1>
   {{ if .Content }}
     <div class="instagram-description">{{ .Content | safeHTML }}</div>
   {{ end }}

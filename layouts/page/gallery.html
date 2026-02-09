@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="headline name author">{{ .Title }}</h1>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ .Content }}
+
+    {{ if .Params.snapwidget_embed }}
+      <div class="snapwidget-container">
+        {{ .Params.snapwidget_embed | safeHTML }}
+      </div>
+    {{ end }}
+  </div>
+
+  {{ if .Site.Params.comments }}
+    {{ partial "disqus.html" . }}
+  {{ end }}
+</article>
+{{ end }}

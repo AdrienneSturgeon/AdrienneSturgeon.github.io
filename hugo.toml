@@ -105,7 +105,7 @@ unsafe = true
 
 [[menu.main]]
     name = "Gallery"
-    url = "instagram/"
+    url = "page/gallery/"
     weight = 3
 
 [[menu.main]]
