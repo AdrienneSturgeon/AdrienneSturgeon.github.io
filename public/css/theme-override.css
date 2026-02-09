@@ -502,6 +502,16 @@ input[type="submit"] {
   gap: 20px;
 }
 
+/* Responsive SnapWidget iframe */
+.snapwidget-widget {
+  width: 100% !important;
+  max-width: 765px;
+  display: block;
+  margin: 0 auto;
+  border: none !important;
+  height: auto;
+}
+
 .insta-item {
   border: 2px solid var(--lilac);
   box-shadow: 0 4px 12px rgba(177, 156, 217, 0.2);

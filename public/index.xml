@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adrienne Sturgeon</title>
-    <link>http://localhost:1313/</link>
+    <link>https://AdrienneSturgeon.github.io/</link>
     <description>Recent content on Adrienne Sturgeon</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>adrienne@example.com (Adrienne Sturgeon)</managingEditor>
     <webMaster>adrienne@example.com (Adrienne Sturgeon)</webMaster>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://AdrienneSturgeon.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Adrienne</title>
-      <link>http://localhost:1313/page/about/</link>
+      <link>https://AdrienneSturgeon.github.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>adrienne@example.com (Adrienne Sturgeon)</author>
-      <guid>http://localhost:1313/page/about/</guid>
+      <guid>https://AdrienneSturgeon.github.io/page/about/</guid>
       <description>&lt;h2 id=&#34;my-journey&#34;&gt;My Journey&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m Adrienne Sturgeon, a professional aerial silks performer with a passion for artistry, strength, and pushing the boundaries of human movement. My performances combine technical mastery with artistic expression, creating unforgettable experiences for audiences.&lt;/p&gt;&#xA;&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Training&lt;/strong&gt;: [Your training background and key instructors]&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Performances&lt;/strong&gt;: [Broadway-adjacent productions, circus festivals, corporate events, special performances]&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Competitions&lt;/strong&gt;: [Competition highlights and achievements]&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Specializations&lt;/strong&gt;: Aerial silks choreography, performance art, event performances&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;artistic-vision&#34;&gt;Artistic Vision&lt;/h3&gt;&#xA;&lt;p&gt;I believe that aerial silks is a form of poetry—a language where the body speaks without words. My performances aim to:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Classes &amp; Bookings</title>
-      <link>http://localhost:1313/page/classes/</link>
+      <link>https://AdrienneSturgeon.github.io/page/classes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>adrienne@example.com (Adrienne Sturgeon)</author>
-      <guid>http://localhost:1313/page/classes/</guid>
+      <guid>https://AdrienneSturgeon.github.io/page/classes/</guid>
       <description>&lt;h2 id=&#34;book-your-performance&#34;&gt;Book Your Performance&lt;/h2&gt;&#xA;&lt;p&gt;Use the scheduling system below to check availability and book Adrienne for your event.&lt;/p&gt;&#xA;&lt;div style=&#34;width: 100%; margin: 40px 0; padding: 60px 20px; border: 3px solid #9370DB; border-radius: 8px; background: linear-gradient(135deg, rgba(147, 112, 219, 0.1) 0%, rgba(147, 112, 219, 0.05) 100%); text-align: center; box-shadow: 0 4px 12px rgba(177, 156, 217, 0.3);&#34;&gt;&#xD;&#xA;  &lt;p style=&#34;margin: 0 0 30px 0; font-size: 18px; color: #333;&#34;&gt;Sign in to access the booking system and view available classes and events.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Get in Touch</title>
-      <link>http://localhost:1313/page/contact/</link>
+      <link>https://AdrienneSturgeon.github.io/page/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>adrienne@example.com (Adrienne Sturgeon)</author>
-      <guid>http://localhost:1313/page/contact/</guid>
+      <guid>https://AdrienneSturgeon.github.io/page/contact/</guid>
       <description>&lt;p&gt;I&amp;rsquo;d love to hear from you about performance opportunities! Whether you&amp;rsquo;re looking to book aerial silks for your event, interested in a collaboration, or have questions about my work, reach out below.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact-form&#34;&gt;Contact Form&lt;/h2&gt;&#xA;&lt;form action=&#34;https://formspree.io/f/YOUR_FORM_ID&#34; method=&#34;POST&#34; class=&#34;contact-form&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;form-group&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;name&#34;&gt;Your Name *&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;text&#34; class=&#34;form-control&#34; id=&#34;name&#34; name=&#34;name&#34; required&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;form-group&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;email&#34;&gt;Email Address *&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;email&#34; class=&#34;form-control&#34; id=&#34;email&#34; name=&#34;email&#34; required&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;form-group&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;subject&#34;&gt;Inquiry Type *&lt;/label&gt;&#xD;&#xA;    &lt;select class=&#34;form-control&#34; id=&#34;subject&#34; name=&#34;subject&#34; required&gt;&#xD;&#xA;      &lt;option value=&#34;&#34;&gt;-- Select --&lt;/option&gt;&#xD;&#xA;      &lt;option value=&#34;Corporate Event Booking&#34;&gt;Corporate Event Booking&lt;/option&gt;&#xD;&#xA;      &lt;option value=&#34;Theatrical Performance&#34;&gt;Theatrical Performance&lt;/option&gt;&#xD;&#xA;      &lt;option value=&#34;Festival &amp; Competition&#34;&gt;Festival &amp; Competition&lt;/option&gt;&#xD;&#xA;      &lt;option value=&#34;Custom Performance&#34;&gt;Custom Performance Inquiry&lt;/option&gt;&#xD;&#xA;      &lt;option value=&#34;General Inquiry&#34;&gt;General Inquiry&lt;/option&gt;&#xD;&#xA;    &lt;/select&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;form-group&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;message&#34;&gt;Message &amp; Event Details *&lt;/label&gt;&#xD;&#xA;    &lt;textarea class=&#34;form-control&#34; id=&#34;message&#34; name=&#34;message&#34; rows=&#34;5&#34; placeholder=&#34;Tell me about your event, date, venue, and what you envision for the performance...&#34; required&gt;&lt;/textarea&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;button type=&#34;submit&#34; class=&#34;btn btn-lg btn-default&#34;&gt;Send Message&lt;/button&gt;&lt;/p&gt;</description>
     </item>
   </channel>

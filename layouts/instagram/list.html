@@ -1,43 +1,56 @@
 {{ define "main" }}
 <section class="instagram-gallery">
   <h1>{{ .Title }}</h1>
-  {{ $data := site.Data.instagram }}
-  {{ if and $data (isset $data "media") }}
-    <div class="grid">
-      {{ range $i, $item := $data.media }}
-        <figure class="insta-item">
-          <a href="{{ $item.permalink }}" target="_blank" rel="noopener noreferrer">
-            {{ if eq $item.media_type "VIDEO" }}
-              <video controls preload="metadata" poster="/img/instagram/{{ $item.filename }}">
-                <source src="/img/instagram/{{ $item.filename }}" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            {{ else if eq $item.media_type "CAROUSEL_ALBUM" }}
-              <div class="carousel-preview">
-                {{ if gt (len $item.children) 0 }}
-                  {{ range $j, $ch := $item.children }}
-                    <img src="/img/instagram/{{ $ch.filename }}" alt="{{ plainify $item.caption }}" loading="lazy" />
-                    {{ if lt $j 2 }}{{ end }}
-                  {{ end }}
-                {{ else }}
-                  <img src="/img/instagram/{{ $item.filename }}" alt="{{ plainify $item.caption }}" loading="lazy" />
-                {{ end }}
-              </div>
-            {{ else }}
-              <img src="/img/instagram/{{ $item.filename }}" alt="{{ plainify $item.caption }}" loading="lazy" />
-            {{ end }}
-          </a>
-          {{ if $item.formattedCaption }}
-            <figcaption>{{ $item.formattedCaption | safeHTML }}</figcaption>
-          {{ else if $item.caption }}
-            <figcaption>{{ $item.caption }}</figcaption>
-          {{ end }}
-          <div class="meta"><a href="{{ $item.permalink }}" target="_blank" rel="noopener">View on Instagram</a></div>
-        </figure>
-      {{ end }}
-    </div>
-  {{ else }}
-    <p>No Instagram content yet. It will appear here after the automatic sync runs.</p>
+  {{ if .Content }}
+    <div class="instagram-description">{{ .Content | safeHTML }}</div>
   {{ end }}
+
+  {{ with .Params.snapwidget_embed }}
+    {{ . | safeHTML }}
+  {{ else }}
+    {{ with site.Params.snapwidget_embed }}
+      {{ . | safeHTML }}
+    {{ else }}
+      {{ $data := site.Data.instagram }}
+      {{ if and $data (isset $data "media") }}
+      <div class="grid">
+        {{ range $i, $item := $data.media }}
+          <figure class="insta-item">
+            <a href="{{ $item.permalink }}" target="_blank" rel="noopener noreferrer">
+              {{ if eq $item.media_type "VIDEO" }}
+                <video controls preload="metadata" poster="/img/instagram/{{ $item.filename }}">
+                  <source src="/img/instagram/{{ $item.filename }}" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              {{ else if eq $item.media_type "CAROUSEL_ALBUM" }}
+                <div class="carousel-preview">
+                  {{ if gt (len $item.children) 0 }}
+                    {{ range $j, $ch := $item.children }}
+                      <img src="/img/instagram/{{ $ch.filename }}" alt="{{ plainify $item.caption }}" loading="lazy" />
+                      {{ if lt $j 2 }}{{ end }}
+                    {{ end }}
+                  {{ else }}
+                    <img src="/img/instagram/{{ $item.filename }}" alt="{{ plainify $item.caption }}" loading="lazy" />
+                  {{ end }}
+                </div>
+              {{ else }}
+                <img src="/img/instagram/{{ $item.filename }}" alt="{{ plainify $item.caption }}" loading="lazy" />
+              {{ end }}
+            </a>
+            {{ if $item.formattedCaption }}
+              <figcaption>{{ $item.formattedCaption | safeHTML }}</figcaption>
+            {{ else if $item.caption }}
+              <figcaption>{{ $item.caption }}</figcaption>
+            {{ end }}
+            <div class="meta"><a href="{{ $item.permalink }}" target="_blank" rel="noopener">View on Instagram</a></div>
+          </figure>
+        {{ end }}
+      </div>
+    {{ else }}
+      <p>No Instagram content yet. It will appear here after the automatic sync runs, or configure a SnapWidget embed using the <code>snapwidget_embed</code> parameter in your config.</p>
+    {{ end }}
+    {{ end }}
+  {{ end }}
+
 </section>
 {{ end }}

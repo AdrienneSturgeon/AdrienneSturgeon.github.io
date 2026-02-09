@@ -30,6 +30,9 @@ unsafe = true
   favicon = "img/avatar-icon.png"
   dateFormat = "January 2, 2006"
   commit = false
+  # Paste your SnapWidget embed HTML here to render the gallery (optional)
+  # Example: snapwidget_embed = "<iframe src=\"https://snapwidget.com/embed/your_widget_id\" class=\"snapwidget-widget\"></iframe>"
+  snapwidget_embed = ""
   rss = true
   comments = true
   readingTime = true

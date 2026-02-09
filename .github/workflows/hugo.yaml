@@ -57,12 +57,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - name: Fetch Instagram media
-        env:
-          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
-          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
-        run: |
-          node scripts/fetch_instagram.js
+      # Instagram fetch step removed: using SnapWidget embed instead of the Instagram API
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
