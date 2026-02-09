@@ -8,7 +8,7 @@ I'd love to hear from you about performance opportunities! Whether you're lookin
 
 ## Contact Form
 
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+<form action="https://formspree.io/f/xaqdnqgo" method="POST" class="contact-form">
   <div class="form-group">
     <label for="name">Your Name *</label>
     <input type="text" class="form-control" id="name" name="name" required>
@@ -43,8 +43,8 @@ I'd love to hear from you about performance opportunities! Whether you're lookin
 
 ## Other Ways to Connect
 
-- **Email**: adrienne@example.com
-- **Phone**: (555) 123-4567
+- **Email**: adrienne.sturgeon@outlook.com
+- **Phone**: (334) 372-9109
 - **Instagram**: [@adrienne_silks](https://instagram.com/adrienne_silks)
 - **Booking Platform**: See [Bookings & Availability](/page/classes/) for event scheduling
 
